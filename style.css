@@ -1,0 +1,96 @@
+body {
+  font-family: 'Source Code Pro', monospace;
+  color: 839178;
+  font-size: 12.5;
+  line-height: 1.5;
+  background-color: #F8F6F1;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 28;
+  line-height: 1.5;
+  color: #953D23;
+}
+
+h2 {
+  font-size: 14.5;
+  line-height: 1.5;
+  color: #5A6553;
+  margin-top: 22px;
+}
+
+h3 {
+  font-size: 14.5;
+  line-height: 1;
+  color: #5A6553;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #839178;
+}
+
+a:hover {
+  color: #953D23;
+}
+
+#display_pic {
+  border-radius: 50%;
+  height: 163px;
+  width: auto;
+  box-shadow: 0px 1px 10px 5px #BFC8BC;
+  margin-top: 22px;
+}
+
+.container {
+  width:  700;
+  margin: 0 auto;
+}
+
+.card_1 {
+  text-align: center;
+  padding: 10px;
+  border: 40px solid #839178;
+  line-height: 2.5;
+  background-color: #F9F4F1;
+}
+
+.card_2 {
+  text-align: center;
+  padding: 10px;
+  border: 40px solid #839178;
+  background-color: #F9F4F1;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card_sm {
+    text-align: center;
+    width: 86px;
+    margin: 0 auto;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+}
